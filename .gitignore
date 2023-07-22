@@ -1,9 +1,13 @@
 images/*
-.DS_Store
-.ipynb_checkpoints/
-
+**/.DS_Store
+**/yolov5n.pt
+**/best.pt
+**/.ipynb_checkpoints/
+**/datasets
+**/weights/
+**/yolov5s.pt
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 data/
