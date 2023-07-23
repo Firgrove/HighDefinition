@@ -4,7 +4,6 @@ images/*
 **/best.pt
 **/.ipynb_checkpoints/
 **/datasets
-**/weights/
 **/yolov5s.pt
 # Byte-compiled / optimized / DLL files
 **/__pycache__/
