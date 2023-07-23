@@ -1,4 +1,5 @@
 images/*
+**/weights/
 **/.DS_Store
 **/yolov5n.pt
 **/best.pt

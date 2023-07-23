@@ -1,0 +1,9 @@
+path: ./datasets  # dataset root dir
+train: train  # train images
+val: valid  # val images 
+test: valid
+
+# Classes
+names:
+  0: penguin
+  1: turtle

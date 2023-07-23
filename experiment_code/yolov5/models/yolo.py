@@ -23,6 +23,8 @@ if platform.system() != 'Windows':
 
 from models.common import *  # noqa
 from models.experimental import *  # noqa
+from models.GAM import GAM_Attention # import attention module
+from models.SE import SEAttention # import attention module
 from utils.autoanchor import check_anchor_order
 from utils.general import LOGGER, check_version, check_yaml, make_divisible, print_args
 from utils.plots import feature_visualization
@@ -325,6 +327,8 @@ def parse_model(d, ch):  # model_dict, input_channels(3)
             if m in {BottleneckCSP, C3, C3TR, C3Ghost, C3x}:
                 args.insert(2, n)  # number of repeats
                 n = 1
+        elif m in [GAM_Attention, SEAttention]:
+            args = [ch[f], *args]
         elif m is nn.BatchNorm2d:
             args = [ch[f]]
         elif m is Concat:
