@@ -58,7 +58,7 @@ if __name__ == "__main__":
                         default=64)
     parser.add_argument("-m", "--model",
                         help="Choose which model structure to use.",
-                        default="convNN",
+                        default="face_detr",
                         metavar="MODEL_NAME")
     parser.add_argument("-lr", "--learning_rate",
                         help="Learning rate to run the optimizer function with.",
