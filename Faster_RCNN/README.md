@@ -1,5 +1,7 @@
 # Faste R-CNN Model
 ## 1. Basic Operating Environment of my implements:
+Basically, you could run the trained model on the Google Colab.
+
 Python: 3.8.10 (default, Jun 4 2021, 15:09:15) [GCC 7.5.0] 
 CUDA available: True GPU 0,1: NVIDIA GeForce RTX 2080 Ti CUDA_HOME: /usr/local/cuda NVCC: Cuda compilation tools, release 11.3, V11.3.109 GCC: gcc (Ubuntu 9.3.0-17ubuntu1~20.04) 9.3.0 PyTorch: 1.10.0+cu113 PyTorch compiling details: PyTorch built with:
 
