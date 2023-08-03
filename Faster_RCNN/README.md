@@ -1,5 +1,8 @@
-# Faste R-CNN Model
-## 1. Basic Operating Environment of my implements:
+# Faster R-CNN Model
+## 1. We prepared an introduction in the notebook, so that you can get an overview of how our Faster R-CNN works. So please take a look.
+
+## 2. Basic Operating Environment of my implements:
+
 Basically, you could run the trained model on the Google Colab.
 
 Python: 3.8.10 (default, Jun 4 2021, 15:09:15) [GCC 7.5.0] 
