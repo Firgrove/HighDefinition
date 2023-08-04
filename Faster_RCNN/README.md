@@ -3,7 +3,8 @@
 ## 0. Code Demo Presentation:
 Access link: https://drive.google.com/file/d/1_FuTFAHtSR9PhWxHFLYSUWlRySqaSf53/view?usp=sharing
 
-## 1. We prepared an introduction in the notebook, so that you can get an overview of how our Faster R-CNN works. So please take a look.
+## 1. Introduction:
+We prepared an introduction in the notebook, so that you can get an overview of how our Faster R-CNN works. So please take a look.
 
 ## 2. Basic Operating Environment of my implements:
 
